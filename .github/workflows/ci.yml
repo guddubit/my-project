@@ -27,3 +27,5 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
+    - name: print build
+      run: echo "There's a thing in my code!"
